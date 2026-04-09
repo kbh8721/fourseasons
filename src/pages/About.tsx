@@ -40,10 +40,6 @@ export function About() {
             src="/team-photo.jpg"
             alt="사계절 물류 팀워크"
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-            onError={(e) => {
-              // 사진이 아직 업로드되지 않았을 때 보여줄 임시 이미지
-              e.currentTarget.src = "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop";
-            }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent flex items-end p-8 md:p-12">
             <div className="text-white">
